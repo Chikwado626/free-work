@@ -14,12 +14,37 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-.gifContainer, .buttonContainer{
+.gifContainer,header, .buttonContainer{
   width: 100%;
   outline: 1px;
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
+} 
+header img{
+    max-width: 50%;
+    margin: 2em;
     
+}
+.buttonContainer{
+    gap: 2em;
+    margin-top: 1em;
+}
+button{
+    width: 8em;
+    height: 3em;
+    padding: 1em 1.5em 1em 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    color: #ffff;
+    background-color: #636FA4;
+}
+.hidden {
+    display: none;
+}
+button#btn-move{
+    position: absolute;
 }
